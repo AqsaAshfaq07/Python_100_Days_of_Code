@@ -1,0 +1,35 @@
+
+https://replit.com/@AqsaAshfaq07/Treasure-Island?v=1
+
+
+# Treasure Island 
+print("Welcome to the Treasure Island. \n Your mission is to find the treasure. \n Are you ready? \n Let's get started!!")
+
+direction = input("Where do you wanna go?  (left or right)")
+
+if direction == "left":
+  swim_wait = input("Swim or Wait?")
+  
+  if swim_wait == "wait":
+    door = input("Which door?  (red | blue | yellow")
+    if door == "red":
+      print("Burnt by Fire🔥 \n GAME OVER👎")
+    elif door == "yellow":
+      print("YOU WIN🏆")
+    elif door == "blue":
+      print("Eaten by Beasts \n GAME OVER👎")
+    else:
+      print("GAME OVER👎")
+
+  else:
+    print("Attacked by chrocodile \n GAME OVER👎")
+
+else:
+  print("Fell into the Hole \n GAME OVER👎")
+
+print("THE END!!")
+      
+   
+      
+    
+  
